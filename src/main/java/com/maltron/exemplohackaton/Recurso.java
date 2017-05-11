@@ -13,6 +13,6 @@ public class Recurso implements Serializable {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response meuNome() {
-        return Response.ok("Mauricio").build();
+        return Response.ok("Maltron").build();
     }
 }
